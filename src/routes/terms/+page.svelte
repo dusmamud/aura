@@ -8,15 +8,15 @@
 		name="description"
 		content="The terms for shopping at AURA Essentials: orders, pricing, shipping, returns, and how we handle problems — in plain language."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/terms/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/terms/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Terms & Conditions — AURA Essentials" />
 	<meta
 		property="og:description"
 		content="Orders, pricing, shipping, returns — the terms for shopping at AURA Essentials."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/terms/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/hero.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/terms/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/hero.jpg" />
 </svelte:head>
 
 <section class="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:py-14">
@@ -24,7 +24,7 @@
 		<h1 class="font-display text-[42px] leading-[1.08] font-medium text-ink sm:text-5xl">Terms &amp; Conditions</h1>
 		<p class="mt-3 text-sm text-ink/60">Last updated: November 2026</p>
 		<p class="mt-4 text-base leading-relaxed text-ink/75 sm:text-lg">
-			These terms cover shopping at AURA Essentials (aura.pages.dev). By placing an order,
+			These terms cover shopping at AURA Essentials (aura-design.pages.dev). By placing an order,
 			you agree to them. We've written them in plain language — if anything is unclear,
 			ask us from the Help page before you order.
 		</p>

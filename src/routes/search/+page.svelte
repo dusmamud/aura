@@ -78,8 +78,8 @@
 		'@context': 'https://schema.org',
 		'@type': 'BreadcrumbList',
 		itemListElement: [
-			{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aura.pages.dev/' },
-			{ '@type': 'ListItem', position: 2, name: 'Search', item: 'https://aura.pages.dev/search/' }
+			{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aura-design.pages.dev/' },
+			{ '@type': 'ListItem', position: 2, name: 'Search', item: 'https://aura-design.pages.dev/search/' }
 		]
 	};
 </script>
@@ -90,15 +90,15 @@
 		name="description"
 		content="Search AURA Essentials — find knitwear, linen shirts, trousers, totes and more by name, category or colour."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/search/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/search/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Search — AURA Essentials" />
 	<meta
 		property="og:description"
 		content="Find your piece — search the AURA Essentials collection by name, category or colour."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/search/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/hero.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/search/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/hero.jpg" />
 	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 

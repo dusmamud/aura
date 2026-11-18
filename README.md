@@ -3,7 +3,7 @@
 Modern essentials. Effortless every day. A fashion storefront — timeless pieces,
 thoughtful design, made for real life.
 
-Live: https://aura.pages.dev
+Live: https://aura-design.pages.dev
 
 ## Stack (locked)
 

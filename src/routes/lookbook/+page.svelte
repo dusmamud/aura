@@ -10,15 +10,15 @@
 		name="description"
 		content="Four curated looks from AURA Essentials — soft layers, weekend ease, city minimal and effortless neutrals. Shop each look piece by piece."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/lookbook/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/lookbook/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Lookbook — AURA Essentials" />
 	<meta
 		property="og:description"
 		content="Four curated looks — soft layers, weekend ease, city minimal and effortless neutrals. Shop each look piece by piece."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/lookbook/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/look-soft-layers.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/lookbook/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/look-soft-layers.jpg" />
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">

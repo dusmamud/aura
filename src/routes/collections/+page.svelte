@@ -9,12 +9,12 @@
 		'@context': 'https://schema.org',
 		'@type': 'BreadcrumbList',
 		itemListElement: [
-			{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aura.pages.dev/' },
+			{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aura-design.pages.dev/' },
 			{
 				'@type': 'ListItem',
 				position: 2,
 				name: 'Collections',
-				item: 'https://aura.pages.dev/collections/'
+				item: 'https://aura-design.pages.dev/collections/'
 			}
 		]
 	};
@@ -26,15 +26,15 @@
 		name="description"
 		content="AURA Essentials collections — the Spring Refresh seasonal edit at 20% off, curated looks to shop as outfits, and the everyday Essentials that never leave the rail."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/collections/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/collections/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Collections — AURA Essentials" />
 	<meta
 		property="og:description"
 		content="Seasonal Edit, Curated Looks and everyday Essentials — three ways into the collection."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/collections/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/seasonal-trench.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/collections/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/seasonal-trench.jpg" />
 	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 

@@ -2,7 +2,7 @@ import { LOOKS, PRODUCTS } from '#lib/data/products';
 
 export const prerender = true;
 
-const SITE = 'https://aura.pages.dev';
+const SITE = 'https://aura-design.pages.dev';
 
 const STATIC_ROUTES = [
 	'/',

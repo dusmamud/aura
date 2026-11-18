@@ -57,12 +57,12 @@
 		'@type': 'Product',
 		name: product.name,
 		description: product.blurb,
-		image: `https://aura.pages.dev${product.image}`,
+		image: `https://aura-design.pages.dev${product.image}`,
 		category: product.category,
 		color: product.colour,
 		offers: {
 			'@type': 'Offer',
-			url: `https://aura.pages.dev/product/${product.slug}/`,
+			url: `https://aura-design.pages.dev/product/${product.slug}/`,
 			priceCurrency: 'USD',
 			price: product.price,
 			availability: 'https://schema.org/InStock'
@@ -102,12 +102,12 @@
 <svelte:head>
 	<title>{product.name} — AURA Essentials</title>
 	<meta name="description" content={product.blurb} />
-	<link rel="canonical" href="https://aura.pages.dev/product/{product.slug}/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/product/{product.slug}/" />
 	<meta property="og:type" content="product" />
 	<meta property="og:title" content="{product.name} — AURA Essentials" />
 	<meta property="og:description" content={product.blurb} />
-	<meta property="og:url" content="https://aura.pages.dev/product/{product.slug}/" />
-	<meta property="og:image" content="https://aura.pages.dev{product.image}" />
+	<meta property="og:url" content="https://aura-design.pages.dev/product/{product.slug}/" />
+	<meta property="og:image" content="https://aura-design.pages.dev{product.image}" />
 	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 

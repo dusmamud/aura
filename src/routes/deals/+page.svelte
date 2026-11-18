@@ -41,7 +41,7 @@
 		name="description"
 		content="Spring Refresh: 20% off the Seasonal Edit with code AURA20 — merino sweater, cotton shirt, pleated trouser and linen blazer. Free shipping over $150."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/deals/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/deals/" />
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">

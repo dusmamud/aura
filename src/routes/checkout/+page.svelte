@@ -146,7 +146,7 @@
 		name="description"
 		content="Demo checkout for AURA Essentials. Shipping, payment and review — no payment is taken and no card details are sent anywhere."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/checkout/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/checkout/" />
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">

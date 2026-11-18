@@ -71,7 +71,7 @@
 		name="description"
 		content="Track your AURA Essentials order by number. Demo tracking — orders placed at the demo checkout appear here."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/track/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/track/" />
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">

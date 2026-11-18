@@ -18,12 +18,12 @@
 		name="description"
 		content="Your AURA Essentials wishlist — the pieces you have saved for later."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/wishlist/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/wishlist/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Wishlist — AURA Essentials" />
 	<meta property="og:description" content="Your saved pieces from AURA Essentials." />
-	<meta property="og:url" content="https://aura.pages.dev/wishlist/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/hero.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/wishlist/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/hero.jpg" />
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">

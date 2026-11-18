@@ -5,9 +5,9 @@
 	const jsonLd = {
 		'@context': 'https://schema.org',
 		'@type': 'Organization',
-		'@id': 'https://aura.pages.dev/#organization',
+		'@id': 'https://aura-design.pages.dev/#organization',
 		name: 'AURA Essentials',
-		url: 'https://aura.pages.dev/',
+		url: 'https://aura-design.pages.dev/',
 		slogan: 'Designed for life. Made to last.'
 	};
 
@@ -36,15 +36,15 @@
 		name="description"
 		content="AURA Essentials makes timeless wardrobe pieces in warm neutrals — thoughtful materials, honest craftsmanship and small batches, made for real life."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/about/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/about/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Our Story — AURA Essentials" />
 	<meta
 		property="og:description"
 		content="Timeless pieces. Thoughtful design. Made for real life."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/about/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/about-story.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/about/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/about-story.jpg" />
 	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 

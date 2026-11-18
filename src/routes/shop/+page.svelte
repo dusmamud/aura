@@ -95,8 +95,8 @@
 		'@context': 'https://schema.org',
 		'@type': 'BreadcrumbList',
 		itemListElement: [
-			{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aura.pages.dev/' },
-			{ '@type': 'ListItem', position: 2, name: 'Shop', item: 'https://aura.pages.dev/shop/' }
+			{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aura-design.pages.dev/' },
+			{ '@type': 'ListItem', position: 2, name: 'Shop', item: 'https://aura-design.pages.dev/shop/' }
 		]
 	};
 </script>
@@ -107,15 +107,15 @@
 		name="description"
 		content="Shop the full AURA Essentials collection — knitwear, shirts, trousers, jackets, basics and accessories in warm neutrals. Filter by category, size, colour and price."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/shop/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/shop/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Shop All — AURA Essentials" />
 	<meta
 		property="og:description"
 		content="The full AURA Essentials collection — timeless pieces in warm neutrals."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/shop/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/hero.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/shop/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/hero.jpg" />
 	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 

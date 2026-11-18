@@ -9,15 +9,15 @@
 		name="description"
 		content="Free shipping on orders over $150, $8 flat otherwise. Orders dispatch within 1–2 business days — standard delivery 3–5 business days, international 7–14."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/shipping/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/shipping/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Shipping & Delivery — AURA Essentials" />
 	<meta
 		property="og:description"
 		content="Free shipping over $150, $8 flat otherwise. Dispatched within 1–2 business days."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/shipping/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/hero.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/shipping/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/hero.jpg" />
 </svelte:head>
 
 <section class="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:py-14">

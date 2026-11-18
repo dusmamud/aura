@@ -26,17 +26,17 @@
 		'@graph': [
 			{
 				'@type': 'Organization',
-				'@id': 'https://aura.pages.dev/#organization',
+				'@id': 'https://aura-design.pages.dev/#organization',
 				name: 'AURA Essentials',
-				url: 'https://aura.pages.dev/',
+				url: 'https://aura-design.pages.dev/',
 				slogan: 'Designed for life. Made to last.'
 			},
 			{
 				'@type': 'WebSite',
-				'@id': 'https://aura.pages.dev/#website',
-				url: 'https://aura.pages.dev/',
+				'@id': 'https://aura-design.pages.dev/#website',
+				url: 'https://aura-design.pages.dev/',
 				name: 'AURA Essentials',
-				publisher: { '@id': 'https://aura.pages.dev/#organization' }
+				publisher: { '@id': 'https://aura-design.pages.dev/#organization' }
 			}
 		]
 	};
@@ -48,15 +48,15 @@
 		name="description"
 		content="Timeless wardrobe essentials in warm neutrals — knitwear, shirts, trousers, jackets and accessories. Thoughtful design, made for real life."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="AURA Essentials — Modern Essentials. Effortless Every Day." />
 	<meta
 		property="og:description"
 		content="Timeless pieces. Thoughtful design. Made for real life."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/hero.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/hero.jpg" />
 	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 

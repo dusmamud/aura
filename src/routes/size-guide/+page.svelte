@@ -44,15 +44,15 @@
 		name="description"
 		content="AURA Essentials size guide: bust, waist, hip and inseam measurements in cm and inches for tops, knitwear, trousers, jackets and coats, plus how to measure."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/size-guide/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/size-guide/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Size Guide — AURA Essentials" />
 	<meta
 		property="og:description"
 		content="Bust, waist and hip measurements in cm and inches — plus how to measure yourself."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/size-guide/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/hero.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/size-guide/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/hero.jpg" />
 </svelte:head>
 
 <section class="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:py-14">

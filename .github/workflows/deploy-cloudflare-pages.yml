@@ -2,7 +2,7 @@
 # Required GitHub secrets (repo > Settings > Secrets and variables > Actions):
 #   CLOUDFLARE_API_TOKEN  — Pages:Edit + Account:Read (or use CLOUDFLARE_API_KEY + CLOUDFLARE_EMAIL)
 #   CLOUDFLARE_ACCOUNT_ID — from Cloudflare dashboard, right sidebar
-# The Cloudflare Pages project must be named `aura` (aura.pages.dev).
+# The Cloudflare Pages project must be named `aura-design` (aura-design.pages.dev).
 name: Deploy to Cloudflare Pages
 
 on:
@@ -29,4 +29,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy build --project-name=aura --commit-dirty=true
+          command: pages deploy build --project-name=aura-design --commit-dirty=true

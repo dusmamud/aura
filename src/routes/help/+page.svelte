@@ -76,15 +76,15 @@
 		name="description"
 		content="Answers about shipping, returns, sizing, care, order tracking, gift cards and promo codes — plus a contact form to reach the AURA Essentials team."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/help/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/help/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Help & FAQ — AURA Essentials" />
 	<meta
 		property="og:description"
 		content="Shipping, returns, sizing, care and more — answered. Free shipping over $150, 30-day returns."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/help/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/hero.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/help/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/hero.jpg" />
 </svelte:head>
 
 <!-- Hero -->

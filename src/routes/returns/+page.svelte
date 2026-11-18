@@ -32,15 +32,15 @@
 		name="description"
 		content="30-day returns and exchanges at AURA Essentials. Unworn, with tags attached — refunds to your original payment method within 5–10 business days of receipt."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/returns/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/returns/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Returns & Exchanges — AURA Essentials" />
 	<meta
 		property="og:description"
 		content="30-day returns. Unworn, tags attached. Refunds to your original payment method."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/returns/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/hero.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/returns/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/hero.jpg" />
 </svelte:head>
 
 <section class="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:py-14">

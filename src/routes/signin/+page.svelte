@@ -79,7 +79,7 @@
 		name="description"
 		content="Sign in to your AURA Essentials account or create one. Demo only — your details stay in your browser."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/signin/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/signin/" />
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">

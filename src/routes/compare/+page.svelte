@@ -28,12 +28,12 @@
 		name="description"
 		content="Compare up to 3 AURA Essentials pieces side by side — price, category, colour and sizes."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/compare/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/compare/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Compare — AURA Essentials" />
 	<meta property="og:description" content="Compare up to 3 pieces side by side — price, category, colour and sizes." />
-	<meta property="og:url" content="https://aura.pages.dev/compare/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/hero.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/compare/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/hero.jpg" />
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">

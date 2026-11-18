@@ -96,7 +96,7 @@
 		name="description"
 		content="Your AURA Essentials account: view demo orders, manage your saved address, and sign out."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/account/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/account/" />
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">

@@ -22,12 +22,12 @@
 		name="description"
 		content="Shop the {look.title} look from AURA Essentials — {data.products.map((p) => p.name).join(', ')}."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/lookbook/{look.slug}/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/lookbook/{look.slug}/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="{look.title} — Lookbook — AURA Essentials" />
 	<meta property="og:description" content="Shop the {look.title} look — {data.products.length} pieces." />
-	<meta property="og:url" content="https://aura.pages.dev/lookbook/{look.slug}/" />
-	<meta property="og:image" content="https://aura.pages.dev{look.image}" />
+	<meta property="og:url" content="https://aura-design.pages.dev/lookbook/{look.slug}/" />
+	<meta property="og:image" content="https://aura-design.pages.dev{look.image}" />
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 lg:py-10">

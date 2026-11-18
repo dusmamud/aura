@@ -72,7 +72,7 @@
 		name="description"
 		content="Review your AURA Essentials bag, apply code AURA20 for 20% off, and check out. Free shipping on orders over $150."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/cart/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/cart/" />
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">

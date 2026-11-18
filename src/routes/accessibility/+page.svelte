@@ -8,15 +8,15 @@
 		name="description"
 		content="How AURA Essentials makes this site usable for everyone: keyboard navigation, visible focus, alt text, reduced-motion support and 44px touch targets."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/accessibility/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/accessibility/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Accessibility — AURA Essentials" />
 	<meta
 		property="og:description"
 		content="Keyboard navigation, visible focus, alt text, reduced-motion support — what this site actually does."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/accessibility/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/hero.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/accessibility/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/hero.jpg" />
 </svelte:head>
 
 <section class="mx-auto max-w-3xl px-4 py-10 sm:px-6 lg:py-14">

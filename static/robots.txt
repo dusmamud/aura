@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aura.pages.dev/sitemap.xml
+Sitemap: https://aura-design.pages.dev/sitemap.xml

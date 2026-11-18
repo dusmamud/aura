@@ -21,13 +21,13 @@
 		'@context': 'https://schema.org',
 		'@type': 'BreadcrumbList',
 		itemListElement: [
-			{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aura.pages.dev/' },
-			{ '@type': 'ListItem', position: 2, name: 'Shop', item: 'https://aura.pages.dev/shop/' },
+			{ '@type': 'ListItem', position: 1, name: 'Home', item: 'https://aura-design.pages.dev/' },
+			{ '@type': 'ListItem', position: 2, name: 'Shop', item: 'https://aura-design.pages.dev/shop/' },
 			{
 				'@type': 'ListItem',
 				position: 3,
 				name: 'New Arrivals',
-				item: 'https://aura.pages.dev/new/'
+				item: 'https://aura-design.pages.dev/new/'
 			}
 		]
 	};
@@ -39,15 +39,15 @@
 		name="description"
 		content="Just landed at AURA Essentials — a relaxed merino sweater, an oversized cotton shirt, wide-leg pleated trousers and a relaxed linen blazer. New season, same quiet quality."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/new/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/new/" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="New Arrivals — AURA Essentials" />
 	<meta
 		property="og:description"
 		content="Just landed — merino, cotton, pleated trousers and linen. The newest AURA pieces."
 	/>
-	<meta property="og:url" content="https://aura.pages.dev/new/" />
-	<meta property="og:image" content="https://aura.pages.dev/images/prod-merino-sweater.jpg" />
+	<meta property="og:url" content="https://aura-design.pages.dev/new/" />
+	<meta property="og:image" content="https://aura-design.pages.dev/images/prod-merino-sweater.jpg" />
 	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 

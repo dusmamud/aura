@@ -57,7 +57,7 @@
 		name="description"
 		content="Give an AURA Essentials gift card — choose $50, $100, $150 or $200, add a message, and share the code. Demo only, no payment is taken."
 	/>
-	<link rel="canonical" href="https://aura.pages.dev/gift-cards/" />
+	<link rel="canonical" href="https://aura-design.pages.dev/gift-cards/" />
 </svelte:head>
 
 <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
