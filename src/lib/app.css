@@ -1,0 +1,50 @@
+@import '@fontsource/cormorant-garamond/500.css';
+@import '@fontsource/cormorant-garamond/600.css';
+@import '@fontsource/cormorant-garamond/700.css';
+@import '@fontsource/jost/400.css';
+@import '@fontsource/jost/500.css';
+@import '@fontsource/jost/600.css';
+@import 'tailwindcss';
+
+@theme {
+	--color-cream: #f5f1eb;
+	--color-cream-2: #f7f3ec;
+	--color-sage: #7a8b6f;
+	--color-sage-dark: #5f7055;
+	--color-sage-panel: #dde3d5;
+	--color-ink: #2b2b28;
+	--color-stone-line: #e4ddd2;
+	--font-display: 'Cormorant Garamond', Georgia, serif;
+	--font-sans: 'Jost', system-ui, sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	@apply bg-cream font-sans text-ink antialiased;
+}
+
+::selection {
+	background: var(--color-sage-panel);
+	color: var(--color-ink);
+}
+
+/* Scroll reveal — opacity/transform only, and only when motion is allowed.
+   Reveal.svelte renders the .reveal class; its IntersectionObserver adds
+   .is-visible once. A <noscript> override in +layout.svelte forces the final
+   state when JS is off, so content can never be stuck at opacity: 0. */
+@media (prefers-reduced-motion: no-preference) {
+	.reveal {
+		opacity: 0;
+		transform: translateY(14px);
+		transition:
+			opacity 0.6s ease,
+			transform 0.6s ease;
+	}
+	.reveal.is-visible {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
