@@ -1,8 +1,28 @@
 <script lang="ts">
 	import { ArrowClockwise, ArrowRight, Headset, Lock, Truck } from 'phosphor-svelte';
+	import { animate } from 'motion';
 	import ProductCard from '#lib/components/ProductCard.svelte';
 	import Reveal from '#lib/components/Reveal.svelte';
 	import { CATEGORIES, LOOKS, PRODUCTS } from '#lib/data/products';
+
+	// Hero entrance: staggered fade-up, opacity + transform only, max ~400ms.
+	// Runs client-side only ($effect), never on the LCP image itself, and is
+	// skipped entirely under prefers-reduced-motion (content stays visible:
+	// no opacity-0 is ever written into the markup).
+	let heroContent: HTMLDivElement | undefined = $state();
+	$effect(() => {
+		const root = heroContent;
+		if (!root) return;
+		if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+		const items = root.querySelectorAll('.hero-anim');
+		items.forEach((el, i) => {
+			animate(
+				el as HTMLElement,
+				{ opacity: [0, 1], y: [14, 0] },
+				{ duration: 0.4, delay: 0.05 + i * 0.08, ease: 'easeOut' }
+			);
+		});
+	});
 
 	const newArrivals = PRODUCTS.slice(0, 4);
 	const favorites = [
@@ -60,17 +80,36 @@
 	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
 </svelte:head>
 
-<!-- Hero -->
-<section class="bg-cream">
-	<div class="mx-auto grid max-w-7xl items-center gap-8 px-4 py-10 sm:px-6 lg:grid-cols-2 lg:gap-12 lg:px-8 lg:py-16">
-		<div class="order-2 lg:order-1">
-			<h1 class="font-display text-[42px] leading-[1.08] font-medium text-ink sm:text-6xl lg:text-[64px]">
+<!-- Hero — full-bleed photo background (reference: model right, clean light
+     arches left). Dark ink text over the light photo; a light cream gradient
+     scrim sits only behind the text, the photo itself is never darkened and
+     there is no solid box. min-height 78svh mobile / 92svh desktop. -->
+<section class="relative overflow-hidden bg-cream">
+	<enhanced:img
+		src="#lib/assets/hero.jpg"
+		alt="Woman wearing a relaxed linen blazer and wide-leg trousers from AURA Essentials"
+		sizes="100vw"
+		fetchpriority="high"
+		class="absolute inset-0 h-full w-full object-cover object-[72%_center] lg:object-center"
+	/>
+	<div
+		class="absolute inset-0 bg-gradient-to-r from-cream/95 via-cream/80 to-cream/15 lg:via-cream/65 lg:to-cream/0"
+		aria-hidden="true"
+	></div>
+	<div
+		bind:this={heroContent}
+		class="relative mx-auto flex min-h-[78svh] max-w-7xl items-center px-4 py-16 sm:px-6 lg:min-h-[92svh] lg:px-8"
+	>
+		<div class="max-w-xl">
+			<h1
+				class="hero-anim font-display text-[42px] leading-[1.08] font-medium text-ink sm:text-6xl lg:text-[64px]"
+			>
 				Modern Essentials.<br />Effortless Every Day.
 			</h1>
-			<p class="mt-5 max-w-md text-base leading-relaxed text-ink/75 sm:text-lg">
+			<p class="hero-anim mt-5 max-w-md text-base leading-relaxed text-ink/75 sm:text-lg">
 				Timeless pieces. Thoughtful design.<br />Made for real life.
 			</p>
-			<div class="mt-8 flex flex-wrap items-center gap-6">
+			<div class="hero-anim mt-8 flex flex-wrap items-center gap-6">
 				<a
 					href="/shop/"
 					class="inline-block bg-sage px-8 py-3.5 text-sm font-medium tracking-wide text-white transition hover:bg-sage-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sage"
@@ -85,16 +124,6 @@
 					<ArrowRight size={16} class="transition-transform group-hover:translate-x-1" />
 				</a>
 			</div>
-		</div>
-		<div class="order-1 lg:order-2">
-			<img
-				src="/images/hero.jpg"
-				alt="Woman wearing a relaxed linen blazer and wide-leg trousers from AURA Essentials"
-				width="1920"
-				height="1280"
-				fetchpriority="high"
-				class="aspect-[4/5] w-full object-cover object-right"
-			/>
 		</div>
 	</div>
 </section>
@@ -262,6 +291,43 @@
 			</div>
 		</div>
 	</div>
+</section>
+
+<!-- Our Story — calm editorial strip (copy from the About page) -->
+<section class="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8 lg:pb-16">
+	<Reveal>
+		<div class="relative overflow-hidden">
+			<img
+				src="/images/about-story.jpg"
+				alt="AURA Essentials — timeless wardrobe pieces in warm neutrals"
+				width="1920"
+				height="1280"
+				loading="lazy"
+				class="absolute inset-0 h-full w-full object-cover"
+			/>
+			<div
+				class="absolute inset-0 bg-gradient-to-r from-cream/95 via-cream/70 to-cream/10"
+				aria-hidden="true"
+			></div>
+			<div class="relative flex min-h-[320px] max-w-xl flex-col items-start justify-center p-6 sm:p-10 lg:min-h-[380px]">
+				<p class="text-[11px] font-medium tracking-[0.2em] text-sage-dark uppercase">Our Story</p>
+				<h2 class="mt-2 font-display text-3xl leading-tight font-medium text-ink sm:text-4xl">
+					Designed for life.<br />Made to last.
+				</h2>
+				<p class="mt-3 max-w-md text-sm leading-relaxed text-ink/75 sm:text-base">
+					Timeless wardrobe pieces in warm neutrals — thoughtful materials, honest
+					craftsmanship and small batches, made for real life.
+				</p>
+				<a
+					href="/about/"
+					class="group mt-6 inline-flex items-center gap-2 text-sm font-medium text-ink transition hover:text-sage-dark focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sage"
+				>
+					Read our story
+					<ArrowRight size={16} class="transition-transform group-hover:translate-x-1" />
+				</a>
+			</div>
+		</div>
+	</Reveal>
 </section>
 
 <!-- Trust bar -->
